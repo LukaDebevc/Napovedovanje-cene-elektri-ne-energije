@@ -6,16 +6,6 @@ V tem zvezku raziskujemo različne modele za napovedovanje cen električne energ
 
 Podatki o cenah električne energije so pridobljeni na **urni ravni** iz [Ember Climate](https://ember-climate.org/data-catalogue/european-wholesale-electricity-price-data/). Vsebujejo cene električne energije (v EUR/MWh) za Slovenijo.
 
-- **Datoteka**: `Slovenia.csv`
-- **Podatkovna polja**:
-  - `Datetime (UTC)`: časovni žig (datum in ura) podatkov
-  - `Price (EUR/MWhe)`: urna cena električne energije v evrih za megavatno uro (EUR/MWh)
-  
-Iz podatkov so izpeljani tudi dodatni stolpci:
-- `Hour`: ura dneva (0-23)
-- `Day of Week`: dan v tednu (0=ponedeljek, 6=nedelja)
-- `Month`: mesec v letu (1=januar, 12=december)
-
 ## Navodila za uporabo
 
 1. Prenesite datoteko `Slovenia.csv` in jo shranite v mapo `european_wholesale_electricity_price_data_hourly/`.
